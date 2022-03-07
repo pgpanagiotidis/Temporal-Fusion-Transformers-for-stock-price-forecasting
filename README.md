@@ -5,3 +5,4 @@ The Pfizer and AstraZeneca stocks prices were taken from the Yahoo Finance site.
 2. We enhanced the first model by giving as input also the past 14 days AstraZeneca closing prices to forecast the prices closing of the 3 following days of the  Pfizer stock (Pfizer stock closing price forecasting enhanced model.ipynb).
 
 In both cases, the forecasts look rather accurate, although in the first case, the  Mean Absolute Error (MAE) is lower (i.e., 1.0167) compared to the second  (i.e., 1.7004). So, it seems that the AstraZeneca stock closing price as an input feature does not improve the forecast of Pfizer's stock closing price.
+For the forecasts, used the PyTorch Forecasting (https://pytorch-forecasting.readthedocs.io/en/stable/index.html).
